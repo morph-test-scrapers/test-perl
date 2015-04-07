@@ -9,3 +9,8 @@ $dt->insert({
     name => "susan",
     occupation => "software developer",
 });
+
+for (my $i=1; $i <= 5; $i++) {
+   print "$i...\n";
+   sleep 1;
+}
